@@ -1,0 +1,156 @@
+{
+ "channel_id": "UCuUa2n9v57RY3GmgLmSggpQ",
+ "playlists": {
+  "shorts": "PLLQeg9yAzaS8",
+  "long": "PLD1ZRgAZqkno"
+ },
+ "drive_folder": "1Feed6O_3r2w7QgPeAGDllh5bl76FClLU",
+ "videos": [
+  {
+   "date": "2026-11-14",
+   "kind": "short",
+   "video_id": "L2aHvryJSx8",
+   "title": "What If Gravity Was HALF?",
+   "topic": "half gravity",
+   "category": "physics (gravity)",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-15",
+   "kind": "short",
+   "video_id": "EYI4fbSye38",
+   "title": "What If Gravity Kept CHANGING?",
+   "topic": "changing gravity / planets",
+   "category": "physics (gravity)",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-15",
+   "kind": "long",
+   "video_id": "Qin2UUdYFjg",
+   "title": "What If Earth Was FLAT?",
+   "topic": "flat earth physics",
+   "category": "planet / earth",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-16",
+   "kind": "short",
+   "video_id": "dyqOCHfZ6rk",
+   "title": "What If Sound Was 10x SLOWER?",
+   "topic": "slow sound",
+   "category": "physics (waves)",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-17",
+   "kind": "short",
+   "video_id": "Lzrjp4gLZ8Q",
+   "title": "What If Earth Spun Twice as FAST?",
+   "topic": "earth spins 2x",
+   "category": "planet / earth",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-18",
+   "kind": "short",
+   "video_id": "JpSy6SlDVA8",
+   "title": "What If Humans Were 10x SMALLER?",
+   "topic": "10x smaller humans",
+   "category": "body / scale",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-19",
+   "kind": "short",
+   "video_id": "RBIB8_WgAtY",
+   "title": "What If There Was NO Friction?",
+   "topic": "no friction",
+   "category": "everyday physics",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-20",
+   "kind": "short",
+   "video_id": "wIGxm8uL9sE",
+   "title": "What If Time Ran Faster UPSTAIRS?",
+   "topic": "gravitational time dilation",
+   "category": "physics (time)",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-21",
+   "kind": "short",
+   "video_id": "gZd3j5IETMk",
+   "title": "What If You Could SEE HEAT?",
+   "topic": "heat / thermal vision",
+   "category": "senses / body",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-21",
+   "kind": "long",
+   "video_id": "lejKS6cu7fo",
+   "title": "What If You Could Remember Being a Baby?",
+   "topic": "infant memory",
+   "category": "brain / psychology",
+   "style": "toon v2"
+  },
+  {
+   "date": "2026-11-22",
+   "kind": "short",
+   "video_id": "HtZXWJPSCTk",
+   "title": "What If Fire Had No \"UP\"?",
+   "topic": "round flames / no convection",
+   "category": "everyday physics",
+   "style": "3d-parallax v1"
+  },
+  {
+   "date": "2026-11-23",
+   "kind": "short",
+   "video_id": "W8CoCZydROs",
+   "title": "What If Every Ocean Was the DEAD SEA?",
+   "topic": "dead sea salinity oceans",
+   "category": "earth / ocean",
+   "style": "toon v2",
+   "thumb": "pro v1"
+  },
+  {
+   "date": "2026-11-23",
+   "kind": "short",
+   "video_id": "UkD2WkqXiAY",
+   "title": "What If Water Boiled at 50°C?",
+   "topic": "boiling point 50C / everest",
+   "category": "everyday physics",
+   "style": "3d-parallax v1",
+   "status": "scheduled 2026-11-23 17:30Z"
+  },
+  {
+   "date": "2026-11-24",
+   "kind": "short",
+   "video_id": "zjiFxZsyibU",
+   "title": "What If Our Sky Was Like MARS?",
+   "topic": "mars sky colours / blue sunset",
+   "category": "space",
+   "style": "3d-parallax v1",
+   "status": "scheduled 2026-11-24 17:30Z"
+  }
+ ],
+ "ready": [
+  {
+   "file": "ep13_ice_sinks",
+   "kind": "short",
+   "topic": "ice sinks / density of ice",
+   "category": "everyday physics"
+  },
+  {
+   "file": "long03_nobody_could_lie",
+   "kind": "long",
+   "topic": "nobody could lie / honesty",
+   "category": "psychology / society"
+  }
+ ],
+ "ideas_reserved": [
+  "what if smartphones/cameras never existed (planned long idea)"
+ ]
+}
