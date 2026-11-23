@@ -37,3 +37,4 @@ Every run reads this file first and appends to the log at the bottom. Keep it sh
 | date | slot | video | variable tested | result after 48 h (fill in later) |
 |---|---|---|---|---|
 | 2026-11-23 | test | Dead Sea oceans (W8CoCZydROs) | first toon-v2 Short with a pro thumbnail | |
+| 2026-11-23 | LONG 20:00 PKT | Nobody could LIE (XRVqSZqynCw) | first long with a pro thumbnail, psychology topic, uploaded at the 20:00 PKT slot (long baseline: Flat Earth 11 views, Baby memory 8) | |

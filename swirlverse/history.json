@@ -134,6 +134,17 @@
    "category": "space",
    "style": "3d-parallax v1",
    "status": "scheduled 2026-11-24 17:30Z"
+  },
+  {
+   "date": "2026-11-23",
+   "kind": "long",
+   "video_id": "XRVqSZqynCw",
+   "title": "What If Nobody Could Lie?",
+   "topic": "nobody could lie / honesty",
+   "category": "psychology / society",
+   "style": "toon v2",
+   "thumb": "pro v1",
+   "experiment": "first long with pro thumbnail + published at 20:00 PKT slot"
   }
  ],
  "ready": [
@@ -142,12 +153,6 @@
    "kind": "short",
    "topic": "ice sinks / density of ice",
    "category": "everyday physics"
-  },
-  {
-   "file": "long03_nobody_could_lie",
-   "kind": "long",
-   "topic": "nobody could lie / honesty",
-   "category": "psychology / society"
   }
  ],
  "ideas_reserved": [
