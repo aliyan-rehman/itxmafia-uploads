@@ -1,4 +1,6 @@
-# Free comment + stats worker: one-time setup (about 10 minutes, $0)
+# Free channel setup (about 20 minutes, $0)
+
+## Part A: comments, replies, playlists, stats
 
 This gives the GitHub Actions worker (`.github/workflows/swirlverse-ops.yml`) its own free access to your channel. It handles comments, replies, playlists, the altered-content setting and stats, so Zapier tasks are only spent on uploads.
 
@@ -28,3 +30,16 @@ This gives the GitHub Actions worker (`.github/workflows/swirlverse-ops.yml`) it
 
 The secrets stay private even though the repo is public. Never paste them into a file.
 Uploading stays on Zapier: videos uploaded through an unaudited Google project are locked to private, and comments are not affected by that rule.
+
+## Part B: second daily Short via Pipedream (free plan)
+Zapier's free plan covers 48 uploads a month: the 5 PM Short and the long videos. The 10:30 PM Short is uploaded through a free Pipedream workflow instead, and the GitHub worker calls it.
+
+1. Sign up at https://pipedream.com (free) and create a **new workflow**.
+2. Trigger: **HTTP / Webhook → New requests**, with **HTTP Response** set to "Return a custom response from your workflow". Copy the trigger URL.
+3. Add a step: **Python → Run Python code**. Paste all of `swirlverse/ops/pipedream_step.py`. Replace `PASTE_THE_SAME_RANDOM_TEXT_YOU_SAVE_AS_PD_SECRET` with your secret (any long random text; Claude gave you one in chat).
+4. In the same step, click **+ Add an app** → **YouTube Data API** → connect it with the **Swirlverse** channel. The app's name must be `youtube_data_api`, as in the code.
+5. In the workflow **Settings**, set the timeout to **300 seconds**. Then **Deploy**.
+6. In GitHub, add 2 more repository secrets:
+   - `PD_WEBHOOK_URL`: the trigger URL
+   - `PD_SECRET`: the same random text
+7. Tell Claude "Pipedream done". Claude runs one test upload and checks that it comes out public.

@@ -79,6 +79,33 @@ class YT:
     get = lambda s, u, p=None: s.call("GET", u, p)
 
 
+# ---------------------------------------------------------------- upload via Pipedream (free)
+REPO_ROOT = os.path.dirname(os.path.dirname(HERE))
+
+
+def pipedream_upload(job):
+    url, secret = os.environ.get("PD_WEBHOOK_URL", "").strip(), os.environ.get("PD_SECRET", "").strip()
+    if not (url and secret):
+        raise RuntimeError("pipedream not set up (PD_WEBHOOK_URL / PD_SECRET secrets missing)")
+    body = {k: job[k] for k in ("video_url", "thumb_url", "title", "description", "tags",
+                                "category_id") if k in job}
+    body.update(secret=secret, privacy="public")
+    req = urllib.request.Request(url, json.dumps(body).encode(), method="POST",
+                                 headers={"Content-Type": "application/json"})
+    with urllib.request.urlopen(req, timeout=330) as r:
+        out = json.load(r)
+    if not out.get("video_id"):
+        raise RuntimeError("pipedream: " + json.dumps(out)[:300])
+    return out
+
+
+def remove_media(files):
+    import subprocess
+    for f in files or []:
+        if f.startswith("swirlverse_") and "/" not in f and os.path.exists(os.path.join(REPO_ROOT, f)):
+            subprocess.run(["git", "rm", "-q", f], cwd=REPO_ROOT, check=False)
+
+
 # ---------------------------------------------------------------- queue
 def run_queue(yt):
     q = load("queue.json", {"jobs": []})
@@ -91,7 +118,23 @@ def run_queue(yt):
         res = dict(job, ran=dt.datetime.utcnow().isoformat(timespec="seconds") + "Z")
         try:
             op = job["op"]
-            if op == "comment":
+            if op != "upload" and yt is None:
+                keep.append(job); n -= 1; continue
+            if op == "upload":
+                out = pipedream_upload(job)
+                vid = out["video_id"]
+                res["result"] = vid
+                res["privacy"] = out.get("privacy")
+                res["thumbnail"] = out.get("thumbnail")
+                remove_media(job.get("files"))
+                # follow-ups (run when the YouTube secrets exist)
+                for extra in ([{"op": "playlist_add", "video_id": vid, "playlist_id": job["playlist_id"]}]
+                              if job.get("playlist_id") else []) + \
+                             [{"op": "set_status", "video_id": vid}] + \
+                             ([{"op": "comment", "video_id": vid, "text": job["first_comment"]}]
+                              if job.get("first_comment") else []):
+                    keep.append(extra)
+            elif op == "comment":
                 r = yt.call("POST", "commentThreads", {"part": "snippet"}, {"snippet": {
                     "videoId": job["video_id"],
                     "topLevelComment": {"snippet": {"textOriginal": job["text"]}}}})
@@ -188,11 +231,15 @@ def run_comments(yt):
 
 def main():
     tok = token()
-    if not tok:
-        print("YT_* secrets not set yet: nothing to do (see swirlverse/ops/SETUP.md).")
+    yt = YT(tok) if tok else None
+    try:
+        run_queue(yt)
+    except Exception as e:
+        print(f"queue failed: {e}", file=sys.stderr)
+    if yt is None:
+        print("YT_* secrets not set yet: comments/stats skipped (see swirlverse/ops/SETUP.md).")
         return
-    yt = YT(tok)
-    for name, fn in (("queue", run_queue), ("stats", run_stats), ("comments", run_comments)):
+    for name, fn in (("stats", run_stats), ("comments", run_comments)):
         try:
             fn(yt)
         except Exception as e:

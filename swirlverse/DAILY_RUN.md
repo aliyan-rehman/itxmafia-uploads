@@ -27,10 +27,10 @@ The owner is not watching, so never ask questions. If something blocks the run, 
 
 ## Slots (Asia/Karachi)
 - SHORT-A publishes around 17:00 PKT (run starts about 16:00).
-- SHORT-B is **paused** (its scheduled task is disabled) to stay within the free budget: 30 Shorts + 15 longs = 45 calls/month. If a SHORT-B run happens anyway, skip quietly.
+- SHORT-B publishes around 22:30 PKT (run starts about 22:00). **SHORT-B never uses Zapier.** It uploads through the free Pipedream route (step 7, "SHORT-B route").
 - LONG publishes around 20:00 PKT every 2nd day.
 - **Skip rule:** before producing, list the last 10 uploads (step 2). If a video of the same kind is already public or scheduled (`publishAt`) within ±3 h of this slot, skip quietly. Two manual Shorts are scheduled for 2026-11-23 and 2026-11-24 at 17:30Z, so SHORT-B skips on those days.
-- **Max per day:** 1 Short + 1 long. Never upload more, even to catch up after a failure.
+- **Max per day:** 2 Shorts + 1 long. Never upload more, even to catch up after a failure.
 
 ## 1. Setup (about 2 min)
 ```
@@ -131,6 +131,16 @@ python3 engine/qa.py /tmp/swirl/<id>/<id>.mp4 /tmp/swirl/<id>/<id>_thumb.png /tm
 5. OLD reference (do not run): if the upload response shows no custom thumbnail, call `upload_video_thumbnail` (tool_name `youtube_update_video_thumbnail`) with the raw png url.
 6. (Removed: Drive archive costs 2 Zapier calls.) OLD reference: archive to Drive, twice (mp4 and png): `execute_zapier_write_action(selected_api="GoogleDriveCLIAPI", action="file", tool_name="google_drive_upload_file", params={file:<raw url>, folder:"1Feed6O_3r2w7QgPeAGDllh5bl76FClLU", new_name:"<YYYY-MM-DD> <id> <short title>"})`. Leave the extension off the name; Drive adds it.
 7. Delete the 2 media files from the repo root (`git rm`), and from `swirlverse/ready/` if they came from there. Commit and push.
+
+### SHORT-B route (free, no Zapier)
+1. Push the two media files to the repo root as usual and check that the raw URLs answer 200.
+2. Append one job to `swirlverse/ops/queue.json`:
+   `{"op":"upload","video_url":<raw mp4>,"thumb_url":<raw png>,"title","description","tags":[...],"category_id":"27","playlist_id":"PLLQeg9yAzaS8","first_comment":"<first comment>","files":["swirlverse_<id>.mp4","swirlverse_<id>_thumb.png"]}`
+3. Commit and push. The push starts the worker, which uploads through Pipedream, deletes the media and queues the playlist, status and comment jobs.
+4. Poll `git pull` every 60 s for up to 15 min until `ops/done.json` has this upload job.
+   - On a `result` (video id): record it.
+   - If `privacy` is not "public", notify "⚠️ uploaded but YouTube locked it private".
+   - On an `error`, or no answer after 15 min: move the media into `swirlverse/ready/` (so a later run can use it), remove the media from the root, and notify "⚠️ … skipped: <error>". Never fall back to Zapier for SHORT-B.
 
 ## 8. Record
 - Append the video to `swirlverse/history.json` "videos" (date, kind, video_id, title, topic, category, style, thumb, experiment). Remove it from "ready" if it was there.
