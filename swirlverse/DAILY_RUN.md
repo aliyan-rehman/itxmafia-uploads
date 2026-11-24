@@ -37,6 +37,10 @@ Use Zapier with the exact calls below; inspect_zapier_actions first if a call er
   - revise the rules of thumb when the numbers clearly disagree
 
 ## 3. Choose
+**Read `swirlverse/FORMATS.md` first.** The channel makes any curiosity video that fits it: WHAT IF, WHY, IS IT TRUE?, VS, MIND HACK or IMAGINE.
+- Every topic must pass that file's research gate (true, wanted, fresh, score ≥ 19/25) before you write a line.
+- Mix the formats across the week, so no more than 2 of the same format in a row unless the data clearly says it wins.
+- For non-portal formats use `K.cold_open`, `K.verdict` and `K.versus` from shortkit.
 - First check `swirlverse/ready/` for a finished video of this run's kind (listed in history.json "ready"). If one exists, use it: run QA again (step 6) and go to step 7.
 - Otherwise pick a NEW topic using STRATEGY.md:
   - about 70% proven categories, about 30% experiments
@@ -51,7 +55,7 @@ Use Zapier with the exact calls below; inspect_zapier_actions first if a call er
   - put the facts and sources in the episode docstring, and the key facts in the description
   - if a fact can't be confirmed, cut it or pick another topic
 - **Format:**
-  - "In our world, … But in this parallel world, …" (portal at the cut)
+  - for WHAT IF and IMAGINE: "In our world, … But in this parallel world, …" (portal at the cut). Other formats are explained in FORMATS.md
   - Nova = George voice, Kiko = second voice
   - end with a 2-option poll and "Comment below. A new parallel world, every day."
 

@@ -382,6 +382,50 @@ class Kit:
             poll_chip(T.c, 540, 440, poll[0], '#ff4fa3', back((u - 1.0)/0.3, 1.6))
             poll_chip(T.c, 540, 600, poll[1], '#3a8fd8', back((u - 1.6)/0.3, 1.6))
         return self.add(t0, f, None)
+
+    # ----- non-"what if" formats (why / myth-or-true / versus / mind hacks)
+    def cold_open(self, t0, question, par=False, nova=None, kiko=None, z0=1.15, q_col='#ffd43b'):
+        """no portal: both in our world, the big question pops on screen at once (for WHY / IS IT TRUE / VS videos)"""
+        self.sfx += [(t0 + 0.15, 'pop', 0.22)]
+        def f(T, t):
+            u = t - t0; T.cx, T.cy, T.z = 540, 980, z0 - 0.1*ease(u/2.5)
+            self.world(T, t, par)
+            self.kiko(T, t, **(kiko or pose('confused', 'shrug')))
+            self.nova(T, t, **(nova or pose('excited', 'finger_up')))
+            words = question.split(); half = (len(words) + 1)//2
+            for i, line in enumerate((' '.join(words[:half]), ' '.join(words[half:]))):
+                if line: label(T.c, line, 540, 330 + i*150, 120 if len(line) < 12 else 1300/len(line), '#ffffff' if i == 0 else q_col, (-0.04, 0.03)[i], back((u - 0.1 - i*0.15)/0.3, 1.6))
+        return self.add(t0, f, None)
+    def verdict(self, t0, word='MYTH!', col='#ff2d55', sub='', over='board', par=False):
+        """big rubber-stamp verdict: MYTH! / TRUE! / BOTH WRONG! / IT DEPENDS"""
+        self.sfx += [(t0 + 0.12, 'pop2', 0.26), (t0 + 0.2, 'nope' if col == '#ff2d55' else 'chime', 0.2)]
+        def f(T, t):
+            u = t - t0; T.cx, T.cy, T.z = 540, 960, 1.0 + 0.02*u
+            if over == 'board': board(T, t)
+            else: self.world(T, t, par)
+            c = T.c; k = 1 + 1.6*(1 - ease(u/0.18)) if u < 0.18 else 1 + 0.04*math.exp(-(u - 0.18)*10)*math.sin((u - 0.18)*40)
+            c.save(); c.translate(540, 820); c.rotate(-0.12); c.scale(k, k)
+            c.select_font_face('Luckiest Guy'); fs = 230 if len(word) <= 6 else 1500/len(word); c.set_font_size(fs)
+            e = c.text_extents(word); pad = 40
+            c.rectangle(-e.x_advance/2 - pad, -fs*0.75 - pad, e.x_advance + 2*pad, fs*0.85 + 2*pad)
+            c.set_source_rgba(*hexc(col)); c.set_line_width(22); c.stroke()
+            c.move_to(-e.x_advance/2, 0); c.text_path(word); c.set_source_rgb(*LINE); c.set_line_width(fs*0.12); c.stroke_preserve(); c.set_source_rgba(*hexc(col)); c.fill()
+            c.restore()
+            if sub: label(c, sub, 540, 1120, 56 if len(sub) < 26 else 1400/len(sub), '#ffffff', 0, back((u - 0.5)/0.3, 1.4), FONT, 10)
+        return self.add(t0, f, None)
+    def versus(self, t0, left, right, lcol='#4fd8ff', rcol='#ff4fa3', title='VS', draw_left=None, draw_right=None):
+        """split screen A vs B (two hero objects drawn by callbacks fn(T, t, x, y))"""
+        self.sfx += [(t0 + 0.1, 'swoop', 0.16), (t0 + 0.5, 'pop', 0.2)]
+        def f(T, t):
+            u = t - t0; T.cx, T.cy, T.z = 540, 960, 1.0
+            T.flat(rect(-500, -500, 1040, 3000), mixc(lcol, '#1b1422', 0.55)); T.flat(rect(540, -500, 1100, 3000), mixc(rcol, '#1b1422', 0.55))
+            sl = ease(u/0.35)
+            if draw_left: draw_left(T, t, 270 - 400*(1 - sl), 1000)
+            if draw_right: draw_right(T, t, 810 + 400*(1 - sl), 1000)
+            label(T.c, left, 270, 560, 80 if len(left) < 9 else 700/len(left), lcol, -0.04, back((u - 0.2)/0.3, 1.5))
+            label(T.c, right, 810, 560, 80 if len(right) < 9 else 700/len(right), rcol, 0.04, back((u - 0.35)/0.3, 1.5))
+            label(T.c, title, 540, 960, 150, '#ffffff', 0, back((u - 0.5)/0.3, 2.0))
+        return self.add(t0, f, None)
     # ----- render
     def finalize(self):
         self.edl.sort(key=lambda e: e[0])
