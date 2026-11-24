@@ -50,8 +50,15 @@ def token():
         return None
     data = urllib.parse.urlencode(dict(client_id=cid, client_secret=sec,
                                        refresh_token=rt, grant_type="refresh_token")).encode()
-    with urllib.request.urlopen("https://oauth2.googleapis.com/token", data, timeout=30) as r:
-        return json.load(r)["access_token"]
+    try:
+        with urllib.request.urlopen("https://oauth2.googleapis.com/token", data, timeout=30) as r:
+            return json.load(r)["access_token"]
+    except urllib.error.HTTPError as e:
+        info = e.read().decode(errors="replace")[:300]
+        print(f"::error::Google refused the YT_* secrets (HTTP {e.code}): {info}")
+        print(f"Lengths: client_id={len(cid)} (ends .apps.googleusercontent.com: {cid.endswith('.apps.googleusercontent.com')}), "
+              f"client_secret={len(sec)} (starts GOCSPX-: {sec.startswith('GOCSPX-')}), refresh_token={len(rt)} (starts 1//: {rt.startswith('1//')})")
+        return None
 
 
 class YT:
