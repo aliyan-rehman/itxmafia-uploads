@@ -65,8 +65,9 @@ git config user.name "Swirlverse uploader"; git config user.email "swirlverse-bo
   - about 70% proven categories, about 30% experiments
   - never a topic or close variant from history.json within 60 days
 - **Originality:**
-  - 100% original story with our cast only: Nova, Kiko, baby Kiko, Mom, Dad, Grandpa, the mouse
-  - no copyrighted characters, brands, logos, real people, song lyrics or movie references
+  - 100% original story with our cast: Nova, Kiko, baby Kiko, Mom, Dad, Grandpa, the mouse
+  - exception: real athletes as respectful cartoon caricatures in the SPORTS SCIENCE format only, following FORMATS.md §4b (no invented quotes, no logos, stats verified)
+  - no copyrighted characters, brands, logos, song lyrics or movie references; no other real people
   - no fear or shock content
   - family-friendly; made_for_kids stays false
 - **Facts:**

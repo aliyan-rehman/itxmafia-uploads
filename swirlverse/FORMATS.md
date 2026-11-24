@@ -60,6 +60,36 @@ Every run must research the topic and score it **before** writing anything.
 - **Health:** general, well-sourced facts only. Never give medical advice or dosages. Add "talk to a doctor" if it's relevant.
 - No politics, no tragedies or disasters for views, no fear-bait, nothing a child shouldn't see.
 
+## 4b. SPORTS SCIENCE: real athletes (owner approved 2026-11-24)
+Real, famous athletes (Ronaldo, Messi, Bolt, Babar Azam, Virat Kohli, etc.) explained with **physics, biology and stats**. Nova and Kiko narrate; the athlete appears as a **cartoon caricature**, in the video and in the thumbnail, with their real name.
+- **Topics (curiosity first):**
+  - "How does Ronaldo jump 2.5 m?"
+  - "Why is Messi's height a superpower?"
+  - "Could Bolt beat a cheetah for 30 m?"
+  - "What would make Ronaldo even BETTER?" Answer this with science: age curve, recovery, sleep, sprint decline, measurable stats. No personal opinions or insults.
+  - "Messi vs Ronaldo: who is faster at 30 m?" Use VS with real data only.
+- **Accuracy (stricter than normal):**
+  - every stat from official sources (FIFA/UEFA/league sites, ICC, World Athletics, Opta/club data via reputable outlets) or peer-reviewed sports science, with 2+ sources
+  - state the date or season of each stat ("as of Nov 2026")
+  - if a number is disputed or viral but unverified, say so or leave it out
+  - research "every factor" behind a claim (height, muscle type, training, technique, age), not one cherry-picked reason
+- **Caricature rules:**
+  - recognisable by hairstyle, build, shirt number and kit colours
+  - drawn respectfully in our toon style
+  - **no club or sponsor logos, crests or brand marks** (plain kit colours only)
+  - no photos and no traced photos
+- **Never:**
+  - invent quotes or dialogue for a real person (they may react with poses and expressions, but never speak lines we wrote)
+  - put them in fake scenarios that could be mistaken for news (injuries, transfers, retirement, scandals)
+  - show them endorsing anything
+  - mock their body, family, religion or nationality
+  - cover health or private-life speculation
+- **Title and thumbnail:**
+  - the real name plus the curiosity hook ("RONALDO'S Jump Is IMPOSSIBLE?")
+  - the caricature big, plus one hero visual (jump height bar, speed gauge)
+  - the claim must be answered truthfully in the video
+- **Cadence:** about 2 per week to start (Short or long). Track performance against the other formats in STRATEGY.md.
+
 ## 5. Idea bank (examples from the owner; research before using, then add new ones)
 | Format | Idea |
 |---|---|
