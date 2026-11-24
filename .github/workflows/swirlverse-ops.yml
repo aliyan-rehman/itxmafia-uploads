@@ -1,0 +1,36 @@
+name: swirlverse-ops
+# Free Swirlverse channel worker: comments, replies, playlists, stats.
+on:
+  push:
+    branches: [main]
+    paths: ["swirlverse/ops/queue.json"]
+  schedule:
+    - cron: "17 9 * * *"    # 14:17 PKT, before the upload runs
+    - cron: "41 15 * * *"   # 20:41 PKT
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: swirlverse-ops
+  cancel-in-progress: false
+jobs:
+  ops:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run worker
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python3 swirlverse/ops/yt_ops.py
+      - name: Save results
+        run: |
+          git config user.name "Swirlverse ops"
+          git config user.email "swirlverse-bot@users.noreply.github.com"
+          git add swirlverse/ops/*.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Swirlverse ops: queue, stats, comments [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          exit 1

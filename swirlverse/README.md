@@ -8,3 +8,4 @@ Engine, episodes and run notes for the Swirlverse YouTube channel's automatic up
 - `episodes/`: one python file per video
 - `examples/`: full reference scenes from earlier episodes
 - `ready/`: finished videos waiting for their slot (deleted after upload)
+- `ops/`: free GitHub Actions worker for comments, replies, playlists and stats (setup: `ops/SETUP.md`)
