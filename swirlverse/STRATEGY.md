@@ -9,6 +9,11 @@ Every run reads this file first and appends to the log at the bottom. Keep it sh
 - Pattern that works: **one everyday physics rule flipped**, a concrete number in the title ("10x", "HALF", "TWICE"), a CAPS word in the title, a clear visual from the first second, and a length of 25–35 s.
 - Pattern that doesn't: abstract or multi-step ideas, and slow openings.
 
+## Data check 2026-11-24 (SHORT-A run)
+- 28 days: about 3.1K views, 2,928 from the Shorts feed (about 94%), search 85.
+- Dead Sea (toon v2 + pro thumb, 43 s): 1,229 views in about 1.6 days, 30 likes. That is the fastest start so far, so toon v2 looks at least as good as 3d-parallax. Fire Had No UP: 1,325 in 2 days. Water Boiled at 50°C: 507 in 17 h.
+- Long "Nobody Could Lie": 4 views after about 21 h. Longs still barely get any reach; Shorts carry the channel.
+
 ## Rules of thumb (update when the data disagrees)
 1. **Shorts:** 25–40 s. Show the twist on screen within 2 s. Put one CAPS word in the title, ideally with a number.
 2. **Titles:** `What If <thing> Was/Had <CAPS twist>? 🌀 #Swirlverse`. Keep them under 60 characters.
@@ -38,3 +43,4 @@ Every run reads this file first and appends to the log at the bottom. Keep it sh
 |---|---|---|---|---|
 | 2026-11-23 | test | Dead Sea oceans (W8CoCZydROs) | first toon-v2 Short with a pro thumbnail | |
 | 2026-11-23 | LONG 20:00 PKT | Nobody could LIE (XRVqSZqynCw) | first long with a pro thumbnail, psychology topic, uploaded at the 20:00 PKT slot (long baseline: Flat Earth 11 views, Baby memory 8) | |
+| 2026-11-24 | SHORT-A 17:00 PKT | What If ICE SANK? (UHogEIO5o0g) | toon v2 + pro thumb again (2nd test after Dead Sea); ~41 s length (longer than the 25-35 s sweet spot); no number in title | |

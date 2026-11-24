@@ -145,16 +145,20 @@
    "style": "toon v2",
    "thumb": "pro v1",
    "experiment": "first long with pro thumbnail + published at 20:00 PKT slot"
-  }
- ],
- "ready": [
+  },
   {
-   "file": "ep13_ice_sinks",
+   "date": "2026-11-24",
    "kind": "short",
+   "video_id": "UHogEIO5o0g",
+   "title": "What If ICE SANK?",
    "topic": "ice sinks / density of ice",
-   "category": "everyday physics"
+   "category": "everyday physics",
+   "style": "toon v2",
+   "thumb": "pro v1",
+   "experiment": "toon v2 + pro thumb on a proven everyday-physics flip, ~41 s length, no number in title, uploaded at 17:00 PKT SHORT-A slot"
   }
  ],
+ "ready": [],
  "ideas_reserved": [
   "what if smartphones/cameras never existed (planned long idea)"
  ]
