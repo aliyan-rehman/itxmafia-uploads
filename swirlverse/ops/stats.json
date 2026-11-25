@@ -1,18 +1,30 @@
 {
- "updated": "2026-11-25T00:06:32Z",
+ "updated": "2026-11-25T10:56:24Z",
  "channel": {
-  "viewCount": 6737,
+  "viewCount": 7548,
   "subscriberCount": 12,
-  "videoCount": 16
+  "videoCount": 17
  },
  "recent": [
+  {
+   "id": "XT-0LoOVxo8",
+   "title": "Why Can't You TICKLE Yourself? 🌀 #Swirlverse",
+   "published": "2026-11-25T10:56:02Z",
+   "duration": "PT41S",
+   "privacy": "public",
+   "viewCount": 0,
+   "likeCount": 0,
+   "dislikeCount": 0,
+   "favoriteCount": 0,
+   "commentCount": 1
+  },
   {
    "id": "zjiFxZsyibU",
    "title": "What If Our Sky Was Like MARS? 🌀 #Swirlverse",
    "published": "2026-11-24T17:30:02Z",
    "duration": "PT29S",
    "privacy": "public",
-   "viewCount": 73,
+   "viewCount": 165,
    "likeCount": 6,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -24,7 +36,7 @@
    "published": "2026-11-24T11:56:23Z",
    "duration": "PT42S",
    "privacy": "public",
-   "viewCount": 423,
+   "viewCount": 468,
    "likeCount": 7,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -36,8 +48,8 @@
    "published": "2026-11-23T17:30:15Z",
    "duration": "PT33S",
    "privacy": "public",
-   "viewCount": 742,
-   "likeCount": 13,
+   "viewCount": 958,
+   "likeCount": 19,
    "dislikeCount": 0,
    "favoriteCount": 0,
    "commentCount": 0
@@ -48,7 +60,7 @@
    "published": "2026-11-23T14:59:23Z",
    "duration": "PT2M30S",
    "privacy": "public",
-   "viewCount": 6,
+   "viewCount": 9,
    "likeCount": 0,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -60,7 +72,7 @@
    "published": "2026-11-22T19:56:55Z",
    "duration": "PT43S",
    "privacy": "public",
-   "viewCount": 1234,
+   "viewCount": 1236,
    "likeCount": 30,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -72,8 +84,8 @@
    "published": "2026-11-22T17:30:24Z",
    "duration": "PT27S",
    "privacy": "public",
-   "viewCount": 1332,
-   "likeCount": 23,
+   "viewCount": 1345,
+   "likeCount": 24,
    "dislikeCount": 0,
    "favoriteCount": 0,
    "commentCount": 0
@@ -84,7 +96,7 @@
    "published": "2026-11-21T18:30:49Z",
    "duration": "PT2M44S",
    "privacy": "public",
-   "viewCount": 10,
+   "viewCount": 11,
    "likeCount": 0,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -112,7 +124,7 @@
    "likeCount": 19,
    "dislikeCount": 0,
    "favoriteCount": 0,
-   "commentCount": 1
+   "commentCount": 2
   },
   {
    "id": "RBIB8_WgAtY",
@@ -202,7 +214,7 @@
  "top28": [
   {
    "video": "wIGxm8uL9sE",
-   "views": 1256,
+   "views": 1255,
    "estimatedMinutesWatched": 249,
    "averageViewDuration": 21,
    "averageViewPercentage": 63.35000000000001,
@@ -351,7 +363,7 @@
   },
   {
    "insightTrafficSourceType": "YT_SEARCH",
-   "views": 132,
+   "views": 131,
    "estimatedMinutesWatched": 25
   },
   {
@@ -376,7 +388,7 @@
   },
   {
    "insightTrafficSourceType": "SHORTS",
-   "views": 5353,
+   "views": 5349,
    "estimatedMinutesWatched": 1167
   },
   {
