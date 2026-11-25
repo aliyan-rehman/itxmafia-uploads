@@ -116,7 +116,7 @@ def remove_media(files):
 # ---------------------------------------------------------------- queue
 def job_key(j):
     import hashlib
-    raw = json.dumps({k: j.get(k) for k in ("op", "video_id", "parent_id", "playlist_id", "text",
+    raw = json.dumps({k: j.get(k) for k in ("op", "video_id", "parent_id", "playlist_id", "text", "comment_id", "item_id",
                                              "video_url", "title")}, sort_keys=True)
     return hashlib.sha1(raw.encode()).hexdigest()
 
@@ -168,6 +168,12 @@ def run_queue(yt):
                     "playlistId": job["playlist_id"],
                     "resourceId": {"kind": "youtube#video", "videoId": job["video_id"]}}})
                 res["result"] = r.get("id")
+            elif op == "delete_comment":
+                yt.call("DELETE", "comments", {"id": job["comment_id"]})
+                res["result"] = "deleted"
+            elif op == "delete_playlist_item":
+                yt.call("DELETE", "playlistItems", {"id": job["item_id"]})
+                res["result"] = "deleted"
             elif op == "set_status":
                 cur = yt.get("videos", {"part": "status", "id": job["video_id"]})["items"][0]["status"]
                 st = {k: cur[k] for k in ("privacyStatus", "license", "embeddable",
