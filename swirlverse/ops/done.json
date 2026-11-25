@@ -60,6 +60,13 @@
    "key": "acd4a69a1fce731dfbe85a8b9bdbef5cd97e9f5b",
    "ran": "2026-11-25T13:25:12Z",
    "result": "deleted"
+  },
+  {
+   "op": "delete_comment",
+   "comment_id": "Ugzgmmwe6mYt2AlMgV94AaABAg.AdRqPQVb5BwAdcsJhdzOP5",
+   "key": "dd37424ea67aba2d9f10f81cee51be53faea32e9",
+   "ran": "2026-11-25T13:26:10Z",
+   "result": "deleted"
   }
  ]
 }
