@@ -167,6 +167,17 @@
    "style": "toon v2",
    "thumb": "pro (thumbkit): laughing Kiko + 0.2 s stopwatch",
    "experiment": "first WHY format (cold open question, no portal until 2/3), Kiko-led hook, portal twist late; 41 s; no number in title"
+  },
+  {
+   "date": "2026-11-25",
+   "kind": "long",
+   "video_id": "iyS2rFfVRyU",
+   "title": "What If We Never Needed SLEEP?",
+   "topic": "never needing sleep / why we sleep (glymphatic clearance, memory, DEC2 short sleepers)",
+   "category": "27",
+   "style": "toon v2 long",
+   "thumb": "NEVER SLEEP?! + 3 AM clock + +8 HRS burst",
+   "experiment": "WHAT IF long on a universal body topic, 3 AM hook, 2:17"
   }
  ],
  "ready": [],
@@ -180,7 +191,7 @@
    "upload_video (1 per video)"
   ],
   "month": "2026-11",
-  "calls": 1,
+  "calls": 2,
   "note": "Count every successful Zapier call here. Calls made by hand on 2026-11-23/24 during setup are not counted; if Zapier says the task limit is reached, skip and notify."
  }
 }
