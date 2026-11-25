@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-25T10:56:24Z",
+ "updated": "2026-11-25T13:25:14Z",
  "channel": {
   "viewCount": 7548,
-  "subscriberCount": 12,
+  "subscriberCount": 15,
   "videoCount": 17
  },
  "recent": [
@@ -12,8 +12,8 @@
    "published": "2026-11-25T10:56:02Z",
    "duration": "PT41S",
    "privacy": "public",
-   "viewCount": 0,
-   "likeCount": 0,
+   "viewCount": 899,
+   "likeCount": 17,
    "dislikeCount": 0,
    "favoriteCount": 0,
    "commentCount": 1
@@ -24,7 +24,7 @@
    "published": "2026-11-24T17:30:02Z",
    "duration": "PT29S",
    "privacy": "public",
-   "viewCount": 165,
+   "viewCount": 190,
    "likeCount": 6,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -36,7 +36,7 @@
    "published": "2026-11-24T11:56:23Z",
    "duration": "PT42S",
    "privacy": "public",
-   "viewCount": 468,
+   "viewCount": 476,
    "likeCount": 7,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -48,8 +48,8 @@
    "published": "2026-11-23T17:30:15Z",
    "duration": "PT33S",
    "privacy": "public",
-   "viewCount": 958,
-   "likeCount": 19,
+   "viewCount": 993,
+   "likeCount": 23,
    "dislikeCount": 0,
    "favoriteCount": 0,
    "commentCount": 0
@@ -84,8 +84,8 @@
    "published": "2026-11-22T17:30:24Z",
    "duration": "PT27S",
    "privacy": "public",
-   "viewCount": 1345,
-   "likeCount": 24,
+   "viewCount": 1352,
+   "likeCount": 23,
    "dislikeCount": 0,
    "favoriteCount": 0,
    "commentCount": 0

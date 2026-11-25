@@ -1,12 +1,3 @@
 {
- "jobs": [
-  {
-   "op": "delete_comment",
-   "comment_id": "mmwe6mYt2AlMgV94AaABAg.AdRqPQVb5BwAdcsJhdzOP5"
-  },
-  {
-   "op": "delete_playlist_item",
-   "item_id": "UExMUWVnOXlBemFTOC5DQUNERDQ2NkIzRUQxNTY1"
-  }
- ]
+ "jobs": []
 }
