@@ -1,3 +1,8 @@
 {
- "jobs": []
+ "jobs": [
+  {
+   "op": "delete_comment",
+   "comment_id": "Ugzgmmwe6mYt2AlMgV94AaABAg.AdRqPQVb5BwAdcsJhdzOP5"
+  }
+ ]
 }
