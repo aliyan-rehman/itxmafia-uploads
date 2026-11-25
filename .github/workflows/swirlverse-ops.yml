@@ -12,13 +12,17 @@ permissions:
   contents: write
 concurrency:
   group: swirlverse-ops
-  cancel-in-progress: false
+  cancel-in-progress: false   # runs wait for each other
 jobs:
   ops:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Use the latest queue
+        run: git pull -q --rebase origin main
       - name: Run worker
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}

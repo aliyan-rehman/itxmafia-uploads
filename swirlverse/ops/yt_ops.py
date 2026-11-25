@@ -114,15 +114,28 @@ def remove_media(files):
 
 
 # ---------------------------------------------------------------- queue
+def job_key(j):
+    import hashlib
+    raw = json.dumps({k: j.get(k) for k in ("op", "video_id", "parent_id", "playlist_id", "text",
+                                             "video_url", "title")}, sort_keys=True)
+    return hashlib.sha1(raw.encode()).hexdigest()
+
+
 def run_queue(yt):
     q = load("queue.json", {"jobs": []})
     done = load("done.json", {"jobs": []})
+    seen = {j.get("key") or job_key(j) for j in done["jobs"] if not j.get("error")}
     keep, n = [], 0
     for job in q.get("jobs", []):
+        k = job_key(job)
+        if k in seen:
+            print(job.get("op"), "-> already done, skipped")
+            continue
+        seen.add(k)
         if n >= MAX_JOBS:
             keep.append(job); continue
         n += 1
-        res = dict(job, ran=dt.datetime.now(dt.timezone.utc).replace(tzinfo=None).isoformat(timespec="seconds") + "Z")
+        res = dict(job, key=k, ran=dt.datetime.now(dt.timezone.utc).replace(tzinfo=None).isoformat(timespec="seconds") + "Z")
         try:
             op = job["op"]
             if op != "upload" and yt is None:
