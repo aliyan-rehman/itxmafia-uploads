@@ -156,6 +156,17 @@
    "style": "toon v2",
    "thumb": "pro v1",
    "experiment": "toon v2 + pro thumb on a proven everyday-physics flip, ~41 s length, no number in title, uploaded at 17:00 PKT SHORT-A slot"
+  },
+  {
+   "date": "2026-11-25",
+   "kind": "short",
+   "video_id": "XT-0LoOVxo8",
+   "title": "Why Can't You TICKLE Yourself?",
+   "topic": "why you cannot tickle yourself / sensory prediction (cerebellum, 0.2 s delay)",
+   "category": "senses/body",
+   "style": "toon v2",
+   "thumb": "pro (thumbkit): laughing Kiko + 0.2 s stopwatch",
+   "experiment": "first WHY format (cold open question, no portal until 2/3), Kiko-led hook, portal twist late; 41 s; no number in title"
   }
  ],
  "ready": [],
@@ -169,7 +180,7 @@
    "upload_video (1 per video)"
   ],
   "month": "2026-11",
-  "calls": 0,
+  "calls": 1,
   "note": "Count every successful Zapier call here. Calls made by hand on 2026-11-23/24 during setup are not counted; if Zapier says the task limit is reached, skip and notify."
  }
 }
