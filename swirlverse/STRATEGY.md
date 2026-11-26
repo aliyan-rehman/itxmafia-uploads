@@ -30,6 +30,9 @@ Every run reads this file first and appends to the log at the bottom. Keep it sh
 - Channel: 7,851 views, 17 subscribers (up from 14), 19 videos. Cats (IS IT TRUE?) 1,077 views in ~6.5 h; Tickle (WHY) 1,336; ICE SANK 533 at ~2 days; Mars sky 510; Water 50°C 1,080.
 - New formats (WHY, IS IT TRUE?) start as fast as the best WHAT IFs. Longs still ~0-10 views.
 
+## Data check 2026-11-26 (SHORT-B run, stats.json 11:00Z)
+- Channel: 10,870 views, 17 subscribers, 19 videos. Tickle (WHY) 1,352; Cats (IS IT TRUE?) 1,122 at ~18 h; Water 50°C 1,083; Mars sky 642; ICE SANK 600. Onion (WHY) just out. Longs still ~0-12 views.
+
 ## Rules of thumb (update when the data disagrees)
 1. **Shorts:** 25–40 s. Show the twist on screen within 2 s. Put one CAPS word in the title, ideally with a number.
 2. **Titles:** `What If <thing> Was/Had <CAPS twist>? 🌀 #Swirlverse`. Keep them under 60 characters.
@@ -64,3 +67,4 @@ Every run reads this file first and appends to the log at the bottom. Keep it sh
 | 2026-11-25 | LONG 20:00 PKT | What If We Never Needed SLEEP? (iyS2rFfVRyU) | WHAT IF long on a universal body topic (sleep) with a hook in the first line (3 AM wake-up) and a stronger '+8 HRS' thumbnail; 2:17. Gate 21/25. Sources: NIH NINDS, CDC, Xie et al. 2013 Science (NIH), UCSF DEC2 2009. Teaser Short idea: 'Your brain has a NIGHT cleaning crew' | |
 | 2026-11-25 | SHORT-B 22:30 PKT | Do Cats ALWAYS Land on Their Feet? (8baOPxw0Qf0) | first IS IT TRUE? format + first animals topic (MOSTLY TRUE verdict, then a stiff-cat parallel-world test); 44 s; CAPS word, no number; first upload via the free Pipedream route. Gate 22/25. Sources: Scientific American, Live Science, Wikipedia (cat righting reflex) | |
 | 2026-11-26 | SHORT-A 17:00 PKT | Why Do ONIONS Make You Cry? (DAYEA77L28Q) | 2nd WHY format + new topic family (food chemistry / kitchen); crying-Kiko cold open; thumbnail text adds to the title ('IT'S A TRAP!') instead of repeating it; 45 s. Gate 22/25. Sources: Library of Congress Everyday Mysteries, RSC Education, Imai et al. 2002 (Nature) | |
+| 2026-11-26 | SHORT-B 22:30 PKT | Is Lightning HOTTER Than the Sun? (QkPOzIthKN4) | 2nd IS IT TRUE? + first IT DEPENDS verdict (surface TRUE, core NO WAY); new family (weather/space); storm-flash cold open; thumbnail '5X HOTTER OR NOT?!' asks a 2nd question; 46 s; candle-flame-lightning portal test. Gate 21/25. Sources: NOAA NWS, NOAA NSSL, NASA, Britannica | |
