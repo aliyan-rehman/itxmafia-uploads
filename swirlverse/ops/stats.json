@@ -1,18 +1,30 @@
 {
- "updated": "2026-11-25T23:47:14Z",
+ "updated": "2026-11-26T11:00:07Z",
  "channel": {
-  "viewCount": 7851,
+  "viewCount": 10870,
   "subscriberCount": 17,
   "videoCount": 19
  },
  "recent": [
+  {
+   "id": "DAYEA77L28Q",
+   "title": "Why Do ONIONS Make You Cry? 🌀 #Swirlverse",
+   "published": "2026-11-26T11:00:03Z",
+   "duration": "PT45S",
+   "privacy": "public",
+   "viewCount": 0,
+   "likeCount": 0,
+   "dislikeCount": 0,
+   "favoriteCount": 0,
+   "commentCount": 1
+  },
   {
    "id": "8baOPxw0Qf0",
    "title": "Do Cats ALWAYS Land on Their Feet? 🌀 #Swirlverse",
    "published": "2026-11-25T17:16:38Z",
    "duration": "PT44S",
    "privacy": "public",
-   "viewCount": 1077,
+   "viewCount": 1122,
    "likeCount": 15,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -36,7 +48,7 @@
    "published": "2026-11-25T10:56:02Z",
    "duration": "PT41S",
    "privacy": "public",
-   "viewCount": 1336,
+   "viewCount": 1352,
    "likeCount": 15,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -48,7 +60,7 @@
    "published": "2026-11-24T17:30:02Z",
    "duration": "PT29S",
    "privacy": "public",
-   "viewCount": 510,
+   "viewCount": 642,
    "likeCount": 11,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -60,7 +72,7 @@
    "published": "2026-11-24T11:56:23Z",
    "duration": "PT42S",
    "privacy": "public",
-   "viewCount": 533,
+   "viewCount": 600,
    "likeCount": 9,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -72,7 +84,7 @@
    "published": "2026-11-23T17:30:15Z",
    "duration": "PT33S",
    "privacy": "public",
-   "viewCount": 1080,
+   "viewCount": 1083,
    "likeCount": 21,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -96,7 +108,7 @@
    "published": "2026-11-22T19:56:55Z",
    "duration": "PT43S",
    "privacy": "public",
-   "viewCount": 1239,
+   "viewCount": 1241,
    "likeCount": 30,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -108,7 +120,7 @@
    "published": "2026-11-22T17:30:24Z",
    "duration": "PT27S",
    "privacy": "public",
-   "viewCount": 1376,
+   "viewCount": 1388,
    "likeCount": 23,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -120,7 +132,7 @@
    "published": "2026-11-21T18:30:49Z",
    "duration": "PT2M44S",
    "privacy": "public",
-   "viewCount": 11,
+   "viewCount": 12,
    "likeCount": 0,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -132,7 +144,7 @@
    "published": "2026-11-21T17:30:24Z",
    "duration": "PT30S",
    "privacy": "public",
-   "viewCount": 673,
+   "viewCount": 676,
    "likeCount": 15,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -168,7 +180,7 @@
    "published": "2026-11-18T17:30:20Z",
    "duration": "PT25S",
    "privacy": "public",
-   "viewCount": 141,
+   "viewCount": 142,
    "likeCount": 3,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -282,10 +294,10 @@
   },
   {
    "video": "gZd3j5IETMk",
-   "views": 674,
+   "views": 669,
    "estimatedMinutesWatched": 117,
    "averageViewDuration": 19,
-   "averageViewPercentage": 63.35999999999999,
+   "averageViewPercentage": 63.42,
    "likes": 15,
    "comments": 0,
    "shares": 0,
@@ -409,8 +421,8 @@
   },
   {
    "insightTrafficSourceType": "YT_SEARCH",
-   "views": 162,
-   "estimatedMinutesWatched": 33
+   "views": 170,
+   "estimatedMinutesWatched": 36
   },
   {
    "insightTrafficSourceType": "RELATED_VIDEO",
@@ -419,7 +431,7 @@
   },
   {
    "insightTrafficSourceType": "YT_OTHER_PAGE",
-   "views": 25,
+   "views": 24,
    "estimatedMinutesWatched": 4
   },
   {
@@ -434,8 +446,8 @@
   },
   {
    "insightTrafficSourceType": "SHORTS",
-   "views": 6118,
-   "estimatedMinutesWatched": 1325
+   "views": 6095,
+   "estimatedMinutesWatched": 1319
   },
   {
    "insightTrafficSourceType": "HASHTAGS",
