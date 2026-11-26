@@ -169,6 +169,40 @@
    "key": "0c08066137b20ecbd5112909d7181f1634a450d4",
    "ran": "2026-11-26T11:00:05Z",
    "result": "Ugzi3MalQAfTtnhoWJh4AaABAg"
+  },
+  {
+   "op": "upload",
+   "video_url": "https://raw.githubusercontent.com/aliyan-rehman/itxmafia-uploads/main/swirlverse_ep17_lightning_sun.mp4",
+   "thumb_url": "https://raw.githubusercontent.com/aliyan-rehman/itxmafia-uploads/main/swirlverse_ep17_lightning_sun_thumb.png",
+   "title": "Is Lightning HOTTER Than the Sun? 🌀 #Swirlverse",
+   "description": "Is lightning really hotter than the Sun? It depends! A lightning bolt can heat the air to about 27,000°C, about 5 times hotter than the Sun's surface (about 5,500°C). But the Sun's core is about 15 million °C, over 500 times hotter than lightning. And in this parallel world, lightning is only as hot as a candle flame... ⚡\nHot lightning or calm lightning? Comment below 👇\n\nReal science: lightning superheats a narrow channel of air so fast that it expands with a bang, and that sound wave is thunder. The 27,000°C figure is a peak; parts of the channel are cooler. Sources: NOAA National Weather Service, NOAA NSSL, NASA, Britannica.\n\n#shorts #science #lightning #sun #weather #swirlverse",
+   "tags": [
+    "is lightning hotter than the sun",
+    "how hot is lightning",
+    "lightning temperature",
+    "sun temperature",
+    "sun core",
+    "thunder",
+    "weather science",
+    "space science",
+    "parallel world",
+    "what if",
+    "science shorts",
+    "swirlverse",
+    "animation"
+   ],
+   "category_id": "27",
+   "playlist_id": "PLLQeg9yAzaS8",
+   "first_comment": "Real fact ⚡ Lightning can heat the air to about 27,000°C, around 5x the Sun's surface. But the Sun's core is about 15 million °C!\n\nWhich world do you pick? 🅰️ Hot lightning  🅱️ Calm lightning 👇",
+   "files": [
+    "swirlverse_ep17_lightning_sun.mp4",
+    "swirlverse_ep17_lightning_sun_thumb.png"
+   ],
+   "key": "32251f8403fea8532bac86c6b0f56d748b8c2f2e",
+   "ran": "2026-11-26T17:21:49Z",
+   "result": "QkPOzIthKN4",
+   "privacy": "public",
+   "thumbnail": "ok"
   }
  ]
 }
