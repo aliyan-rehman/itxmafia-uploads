@@ -1,3 +1,18 @@
 {
- "jobs": []
+ "jobs": [
+  {
+   "op": "playlist_add",
+   "video_id": "DAYEA77L28Q",
+   "playlist_id": "PLLQeg9yAzaS8"
+  },
+  {
+   "op": "set_status",
+   "video_id": "DAYEA77L28Q"
+  },
+  {
+   "op": "comment",
+   "video_id": "DAYEA77L28Q",
+   "text": "Real fact 🧅 The onion's tear enzyme was only discovered in 2002. Before that, scientists blamed a different enzyme!\n\nWhich world do you pick? 🅰️ Tear onions  🅱️ No-tear onions 👇"
+  }
+ ]
 }

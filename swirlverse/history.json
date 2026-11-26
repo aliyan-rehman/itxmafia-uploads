@@ -190,6 +190,18 @@
    "thumb": "pro (thumbkit): mid-twist cat + shocked Kiko + TWIST! sticker",
    "experiment": "first IS IT TRUE? format + first animals topic; MOSTLY TRUE verdict then portal test; 44 s; SHORT-B 22:30 PKT via Pipedream (first free-route upload)",
    "slot": "SHORT-B"
+  },
+  {
+   "date": "2026-11-26",
+   "kind": "short",
+   "video_id": "DAYEA77L28Q",
+   "title": "Why Do ONIONS Make You Cry?",
+   "topic": "why onions make you cry / onion tear enzyme (lachrymatory-factor synthase, syn-propanethial-S-oxide; no-tear-enzyme world)",
+   "category": "food chemistry / senses",
+   "style": "toon v2",
+   "thumb": "pro (thumbkit): crying Kiko + cut onion + stingy molecules, 'IT'S A TRAP!'",
+   "experiment": "2nd WHY format, new topic family (kitchen chemistry), thumbnail text adds to the title instead of repeating it; 45 s",
+   "slot": "SHORT-A"
   }
  ],
  "ready": [],
@@ -203,7 +215,7 @@
    "upload_video (1 per video)"
   ],
   "month": "2026-11",
-  "calls": 2,
+  "calls": 3,
   "note": "Count every successful Zapier call here. Calls made by hand on 2026-11-23/24 during setup are not counted; if Zapier says the task limit is reached, skip and notify."
  }
 }
