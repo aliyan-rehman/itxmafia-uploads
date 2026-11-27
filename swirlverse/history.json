@@ -226,6 +226,18 @@
    "thumb": "pro (thumbkit): 'TRY NOT TO YAWN!' challenge + giant yawning Kiko + yawning dog + DOGS TOO?! sticker",
    "experiment": "first MIND HACK format + brain/psychology Short; challenge-style thumbnail; 40 s; SHORT-A 17:00 PKT",
    "slot": "SHORT-A"
+  },
+  {
+   "date": "2026-11-27",
+   "kind": "long",
+   "video_id": "nqICFsHke8U",
+   "title": "What If Humans Could Eat SUNLIGHT?",
+   "topic": "humans photosynthesize / eat sunlight (1-2% photosynthetic efficiency, ~1 banana/day estimate, green sea slug kleptoplasty, spotted salamander algae)",
+   "category": "biology / body",
+   "style": "toon v2 long",
+   "thumb": "SUN LUNCH?! + sun + banana on plate + '= 1 BANANA' burst",
+   "experiment": "WHAT IF long on biology with a food hook (starving Kiko) and a concrete payoff number (1 banana); 2:18; uploaded 18:38 PKT",
+   "slot": "LONG"
   }
  ],
  "ready": [],
@@ -239,7 +251,7 @@
    "upload_video (1 per video)"
   ],
   "month": "2026-11",
-  "calls": 4,
+  "calls": 5,
   "note": "Count every successful Zapier call here. Calls made by hand on 2026-11-23/24 during setup are not counted; if Zapier says the task limit is reached, skip and notify."
  }
 }

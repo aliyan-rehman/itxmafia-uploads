@@ -1,3 +1,18 @@
 {
- "jobs": []
+ "jobs": [
+  {
+   "op": "playlist_add",
+   "video_id": "nqICFsHke8U",
+   "playlist_id": "PLD1ZRgAZqkno"
+  },
+  {
+   "op": "set_status",
+   "video_id": "nqICFsHke8U"
+  },
+  {
+   "op": "comment",
+   "video_id": "nqICFsHke8U",
+   "text": "Real fact 🐌 A green sea slug keeps the food factories from the algae it eats, and can live for months on sunlight!\n\nWould YOU swap for solar powered skin? 🅰️ Green skin  🅱️ Keep my lunch 👇"
+  }
+ ]
 }
