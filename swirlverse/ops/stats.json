@@ -1,18 +1,30 @@
 {
- "updated": "2026-11-27T00:00:23Z",
+ "updated": "2026-11-27T10:55:38Z",
  "channel": {
-  "viewCount": 11134,
+  "viewCount": 13173,
   "subscriberCount": 20,
-  "videoCount": 21
+  "videoCount": 22
  },
  "recent": [
+  {
+   "id": "8DntTPlOhu4",
+   "title": "Why Are YAWNS Contagious? 🌀 #Swirlverse",
+   "published": "2026-11-27T10:55:27Z",
+   "duration": "PT41S",
+   "privacy": "public",
+   "viewCount": 0,
+   "likeCount": 0,
+   "dislikeCount": 0,
+   "favoriteCount": 0,
+   "commentCount": 1
+  },
   {
    "id": "QkPOzIthKN4",
    "title": "Is Lightning HOTTER Than the Sun? 🌀 #Swirlverse",
    "published": "2026-11-26T17:22:29Z",
    "duration": "PT47S",
    "privacy": "public",
-   "viewCount": 971,
+   "viewCount": 982,
    "likeCount": 18,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -24,7 +36,7 @@
    "published": "2026-11-26T11:00:03Z",
    "duration": "PT45S",
    "privacy": "public",
-   "viewCount": 948,
+   "viewCount": 953,
    "likeCount": 9,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -36,7 +48,7 @@
    "published": "2026-11-25T17:16:38Z",
    "duration": "PT44S",
    "privacy": "public",
-   "viewCount": 1118,
+   "viewCount": 1122,
    "likeCount": 15,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -60,7 +72,7 @@
    "published": "2026-11-25T10:56:02Z",
    "duration": "PT41S",
    "privacy": "public",
-   "viewCount": 1350,
+   "viewCount": 1352,
    "likeCount": 15,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -72,7 +84,7 @@
    "published": "2026-11-24T17:30:02Z",
    "duration": "PT29S",
    "privacy": "public",
-   "viewCount": 785,
+   "viewCount": 786,
    "likeCount": 12,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -84,7 +96,7 @@
    "published": "2026-11-24T11:56:23Z",
    "duration": "PT42S",
    "privacy": "public",
-   "viewCount": 605,
+   "viewCount": 607,
    "likeCount": 9,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -96,7 +108,7 @@
    "published": "2026-11-23T17:30:15Z",
    "duration": "PT33S",
    "privacy": "public",
-   "viewCount": 1080,
+   "viewCount": 1081,
    "likeCount": 21,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -132,7 +144,7 @@
    "published": "2026-11-22T17:30:24Z",
    "duration": "PT27S",
    "privacy": "public",
-   "viewCount": 1390,
+   "viewCount": 1391,
    "likeCount": 23,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -144,7 +156,7 @@
    "published": "2026-11-21T18:30:49Z",
    "duration": "PT2M44S",
    "privacy": "public",
-   "viewCount": 13,
+   "viewCount": 18,
    "likeCount": 1,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -265,7 +277,7 @@
    "views": 1340,
    "estimatedMinutesWatched": 258,
    "averageViewDuration": 18,
-   "averageViewPercentage": 68.55,
+   "averageViewPercentage": 68.69,
    "likes": 23,
    "comments": 0,
    "shares": 0,
@@ -287,7 +299,7 @@
    "views": 1236,
    "estimatedMinutesWatched": 453,
    "averageViewDuration": 42,
-   "averageViewPercentage": 97.91,
+   "averageViewPercentage": 98.25,
    "likes": 30,
    "comments": 0,
    "shares": 0,
@@ -455,8 +467,8 @@
   },
   {
    "insightTrafficSourceType": "YT_SEARCH",
-   "views": 208,
-   "estimatedMinutesWatched": 47
+   "views": 211,
+   "estimatedMinutesWatched": 48
   },
   {
    "insightTrafficSourceType": "RELATED_VIDEO",
@@ -485,8 +497,8 @@
   },
   {
    "insightTrafficSourceType": "SHORTS",
-   "views": 7460,
-   "estimatedMinutesWatched": 1695
+   "views": 7454,
+   "estimatedMinutesWatched": 1694
   },
   {
    "insightTrafficSourceType": "HASHTAGS",
