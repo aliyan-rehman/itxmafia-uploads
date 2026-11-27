@@ -39,6 +39,9 @@ Every run reads this file first and appends to the log at the bottom. Keep it sh
 ## Data check 2026-11-27 (LONG run, stats.json 10:55Z)
 - Channel: 13,173 views, 20 subscribers, 22 videos. Lightning (IS IT TRUE?) 982 + 18 likes at ~18 h; Onion (WHY) 953; Cats 1,122; Tickle 1,352. Longs: Never SLEEP 0 views at ~44 h, Nobody Could Lie 10. Longs still get no reach; Shorts carry the channel.
 
+## Data check 2026-11-27 (SHORT-B run, stats.json 13:38Z)
+- Channel: 13,173 views, 20 subscribers, 22 videos. Same snapshot as the LONG run (worker not refreshed since): Lightning 983, Onion 953, Cats 1,122, Tickle 1,352; yawn Short and sunlight long just out. No unanswered comments.
+
 ## Rules of thumb (update when the data disagrees)
 1. **Shorts:** 25–40 s. Show the twist on screen within 2 s. Put one CAPS word in the title, ideally with a number.
 2. **Titles:** `What If <thing> Was/Had <CAPS twist>? 🌀 #Swirlverse`. Keep them under 60 characters.
@@ -76,3 +79,4 @@ Every run reads this file first and appends to the log at the bottom. Keep it sh
 | 2026-11-26 | SHORT-B 22:30 PKT | Is Lightning HOTTER Than the Sun? (QkPOzIthKN4) | 2nd IS IT TRUE? + first IT DEPENDS verdict (surface TRUE, core NO WAY); new family (weather/space); storm-flash cold open; thumbnail '5X HOTTER OR NOT?!' asks a 2nd question; 46 s; candle-flame-lightning portal test. Gate 21/25. Sources: NOAA NWS, NOAA NSSL, NASA, Britannica | |
 | 2026-11-27 | SHORT-A 17:00 PKT | Why Are YAWNS Contagious? (8DntTPlOhu4) | first MIND HACK format + brain/psychology Short (Kiko mid-yawn cold open, 21/29 dogs counter, yawn-wave portal world); challenge thumbnail 'TRY NOT TO YAWN!' + 'DOGS TOO?!'; 40 s; no number in title. Gate 21/25. Sources: Live Science, National Geographic (Joly-Mascheroni 2008, Biology Letters), Smithsonian, Houston Methodist | |
 | 2026-11-27 | LONG (uploaded 18:38 PKT) | What If Humans Could Eat SUNLIGHT? (nqICFsHke8U) | WHAT IF long on biology with a hunger hook and one concrete payoff number ('= 1 BANANA' a day); real-animal chapter (sea slug, salamander); 2:18. Gate 21/25. Sources: Britannica (photosynthesis efficiency), Smithsonian (Elysia chlorotica), Kerney et al. 2011 PNAS, FDA, USDA. Teaser Short idea: 'This SLUG eats sunlight' | |
+| 2026-11-27 | SHORT-B 22:30 PKT | Is 1 Dog Year REALLY 7 Human Years? (deGxNla_zFc) | 3rd IS IT TRUE? (MYTH! verdict) on pets; tests a NUMBER in the title again (1 and 7) after three no-number titles; age-curve vs x7-line chart; thumbnail 'NOPE!' + 'AGE 1 = 15!' sticker; 42 s; exactly-x7 portal world (dog stays a little kid). Gate 21/25. Sources: AKC (AVMA guideline), Smithsonian Magazine (UC San Diego methylation study), NHGRI genome.gov | |
