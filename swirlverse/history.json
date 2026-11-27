@@ -214,6 +214,18 @@
    "thumb": "pro (thumbkit): '5X HOTTER OR NOT?!' + bolt + small shocked sun + shocked Kiko + CORE?! sticker",
    "experiment": "2nd IS IT TRUE? format, first IT DEPENDS verdict, new topic family (weather); thumbnail asks a 2nd question instead of repeating the title; 46 s; SHORT-B via Pipedream",
    "slot": "SHORT-B"
+  },
+  {
+   "date": "2026-11-27",
+   "kind": "short",
+   "video_id": "8DntTPlOhu4",
+   "title": "Why Are YAWNS Contagious?",
+   "topic": "why yawns are contagious / contagious yawning (40-60% of people, familiarity bias, 21 of 29 dogs, brain-cooling idea; every-yawn-contagious world)",
+   "category": "brain / psychology",
+   "style": "toon v2",
+   "thumb": "pro (thumbkit): 'TRY NOT TO YAWN!' challenge + giant yawning Kiko + yawning dog + DOGS TOO?! sticker",
+   "experiment": "first MIND HACK format + brain/psychology Short; challenge-style thumbnail; 40 s; SHORT-A 17:00 PKT",
+   "slot": "SHORT-A"
   }
  ],
  "ready": [],
@@ -227,7 +239,7 @@
    "upload_video (1 per video)"
   ],
   "month": "2026-11",
-  "calls": 3,
+  "calls": 4,
   "note": "Count every successful Zapier call here. Calls made by hand on 2026-11-23/24 during setup are not counted; if Zapier says the task limit is reached, skip and notify."
  }
 }
