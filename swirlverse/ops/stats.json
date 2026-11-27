@@ -1,18 +1,30 @@
 {
- "updated": "2026-11-27T17:15:14Z",
+ "updated": "2026-11-27T19:01:59Z",
  "channel": {
   "viewCount": 13200,
-  "subscriberCount": 20,
-  "videoCount": 23
+  "subscriberCount": 21,
+  "videoCount": 24
  },
  "recent": [
+  {
+   "id": "deGxNla_zFc",
+   "title": "Is 1 Dog Year REALLY 7 Human Years? 🌀 #Swirlverse",
+   "published": "2026-11-27T17:15:37Z",
+   "duration": "PT42S",
+   "privacy": "public",
+   "viewCount": 755,
+   "likeCount": 16,
+   "dislikeCount": 0,
+   "favoriteCount": 0,
+   "commentCount": 1
+  },
   {
    "id": "nqICFsHke8U",
    "title": "What If Humans Could Eat SUNLIGHT? 🌀 Swirlverse",
    "published": "2026-11-27T13:38:57Z",
    "duration": "PT2M19S",
    "privacy": "public",
-   "viewCount": 6,
+   "viewCount": 8,
    "likeCount": 0,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -24,8 +36,8 @@
    "published": "2026-11-27T10:55:27Z",
    "duration": "PT41S",
    "privacy": "public",
-   "viewCount": 2,
-   "likeCount": 0,
+   "viewCount": 487,
+   "likeCount": 8,
    "dislikeCount": 0,
    "favoriteCount": 0,
    "commentCount": 1
@@ -36,7 +48,7 @@
    "published": "2026-11-26T17:22:29Z",
    "duration": "PT47S",
    "privacy": "public",
-   "viewCount": 983,
+   "viewCount": 975,
    "likeCount": 18,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -60,7 +72,7 @@
    "published": "2026-11-25T17:16:38Z",
    "duration": "PT44S",
    "privacy": "public",
-   "viewCount": 1122,
+   "viewCount": 1123,
    "likeCount": 15,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -84,7 +96,7 @@
    "published": "2026-11-25T10:56:02Z",
    "duration": "PT41S",
    "privacy": "public",
-   "viewCount": 1352,
+   "viewCount": 1353,
    "likeCount": 15,
    "dislikeCount": 0,
    "favoriteCount": 0,

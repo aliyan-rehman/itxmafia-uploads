@@ -314,6 +314,29 @@
    "result": "deGxNla_zFc",
    "privacy": "public",
    "thumbnail": "ok"
+  },
+  {
+   "op": "playlist_add",
+   "video_id": "deGxNla_zFc",
+   "playlist_id": "PLLQeg9yAzaS8",
+   "key": "78f6c627c387bd2c4163ed0e6254ecf2f7be8ced",
+   "ran": "2026-11-27T19:01:54Z",
+   "result": "UExMUWVnOXlBemFTOC45ODRDNTg0QjA4NkFBNkQy"
+  },
+  {
+   "op": "set_status",
+   "video_id": "deGxNla_zFc",
+   "key": "d1e5ef5aa6a64240254f49d95550654baade052d",
+   "ran": "2026-11-27T19:01:55Z",
+   "result": "ok"
+  },
+  {
+   "op": "comment",
+   "video_id": "deGxNla_zFc",
+   "text": "Real fact 🐶 Vets say a 1 year old dog is already about 15 in human years, not 7!\n\nWhich world do you pick? 🅰️ Fast puppies  🅱️ Slow puppies 👇",
+   "key": "9beec6d7068d968c588ea723020cb1cf9c3be002",
+   "ran": "2026-11-27T19:01:57Z",
+   "result": "UgyvAaSFX_WI_UDKHiN4AaABAg"
   }
  ]
 }
