@@ -1,33 +1,18 @@
 {
  "jobs": [
   {
-   "op": "upload",
-   "video_url": "https://raw.githubusercontent.com/aliyan-rehman/itxmafia-uploads/main/swirlverse_ep19_dog_years.mp4",
-   "thumb_url": "https://raw.githubusercontent.com/aliyan-rehman/itxmafia-uploads/main/swirlverse_ep19_dog_years_thumb.png",
-   "title": "Is 1 Dog Year REALLY 7 Human Years? 🌀 #Swirlverse",
-   "description": "Is one dog year really seven human years? Myth! A 1-year-old dog is already about 15 in human years, about 24 by age 2, and after that each dog year adds about 4 or 5 human years. Big dogs usually age faster than small dogs. But in this parallel world, every dog year is exactly 7 human years... 🐶\nFast puppies or slow puppies? Comment below 👇\n\nReal science: vets use an age guideline (AVMA, shared by the American Kennel Club) instead of the old x7 rule, and a DNA study of Labradors at UC San Diego also found that dogs age very fast at first and then slow down. These are estimates: breed and size change them. Sources: American Kennel Club (AVMA guideline), Smithsonian Magazine, NHGRI (genome.gov).\n\n#shorts #science #dogs #dogyears #animals #swirlverse",
-   "tags": [
-    "dog years",
-    "is a dog year 7 human years",
-    "dog years to human years",
-    "dog age",
-    "how old is my dog",
-    "puppy",
-    "dogs",
-    "animal science",
-    "myth or fact",
-    "parallel world",
-    "science shorts",
-    "swirlverse",
-    "animation"
-   ],
-   "category_id": "27",
-   "playlist_id": "PLLQeg9yAzaS8",
-   "first_comment": "Real fact 🐶 Vets say a 1 year old dog is already about 15 in human years, not 7!\n\nWhich world do you pick? 🅰️ Fast puppies  🅱️ Slow puppies 👇",
-   "files": [
-    "swirlverse_ep19_dog_years.mp4",
-    "swirlverse_ep19_dog_years_thumb.png"
-   ]
+   "op": "playlist_add",
+   "video_id": "deGxNla_zFc",
+   "playlist_id": "PLLQeg9yAzaS8"
+  },
+  {
+   "op": "set_status",
+   "video_id": "deGxNla_zFc"
+  },
+  {
+   "op": "comment",
+   "video_id": "deGxNla_zFc",
+   "text": "Real fact 🐶 Vets say a 1 year old dog is already about 15 in human years, not 7!\n\nWhich world do you pick? 🅰️ Fast puppies  🅱️ Slow puppies 👇"
   }
  ]
 }
