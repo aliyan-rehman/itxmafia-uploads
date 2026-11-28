@@ -1,19 +1,31 @@
 {
- "updated": "2026-11-27T23:43:35Z",
+ "updated": "2026-11-28T10:56:45Z",
  "channel": {
-  "viewCount": 13200,
-  "subscriberCount": 22,
-  "videoCount": 24
+  "viewCount": 15090,
+  "subscriberCount": 21,
+  "videoCount": 25
  },
  "recent": [
+  {
+   "id": "lDkFzonuqcQ",
+   "title": "Hot vs Cold Water: Which FREEZES First? 🌀 #Swirlverse",
+   "published": "2026-11-28T10:56:32Z",
+   "duration": "PT46S",
+   "privacy": "public",
+   "viewCount": 0,
+   "likeCount": 0,
+   "dislikeCount": 0,
+   "favoriteCount": 0,
+   "commentCount": 1
+  },
   {
    "id": "deGxNla_zFc",
    "title": "Is 1 Dog Year REALLY 7 Human Years? 🌀 #Swirlverse",
    "published": "2026-11-27T17:15:37Z",
    "duration": "PT42S",
    "privacy": "public",
-   "viewCount": 1064,
-   "likeCount": 18,
+   "viewCount": 1175,
+   "likeCount": 16,
    "dislikeCount": 0,
    "favoriteCount": 0,
    "commentCount": 1
@@ -36,7 +48,7 @@
    "published": "2026-11-27T10:55:27Z",
    "duration": "PT41S",
    "privacy": "public",
-   "viewCount": 787,
+   "viewCount": 802,
    "likeCount": 9,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -48,8 +60,8 @@
    "published": "2026-11-26T17:22:29Z",
    "duration": "PT47S",
    "privacy": "public",
-   "viewCount": 977,
-   "likeCount": 18,
+   "viewCount": 978,
+   "likeCount": 19,
    "dislikeCount": 0,
    "favoriteCount": 0,
    "commentCount": 1
@@ -60,7 +72,7 @@
    "published": "2026-11-26T11:00:03Z",
    "duration": "PT45S",
    "privacy": "public",
-   "viewCount": 954,
+   "viewCount": 1046,
    "likeCount": 9,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -96,7 +108,7 @@
    "published": "2026-11-25T10:56:02Z",
    "duration": "PT41S",
    "privacy": "public",
-   "viewCount": 1353,
+   "viewCount": 1354,
    "likeCount": 15,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -108,7 +120,7 @@
    "published": "2026-11-24T17:30:02Z",
    "duration": "PT29S",
    "privacy": "public",
-   "viewCount": 785,
+   "viewCount": 791,
    "likeCount": 12,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -168,7 +180,7 @@
    "published": "2026-11-22T17:30:24Z",
    "duration": "PT27S",
    "privacy": "public",
-   "viewCount": 1391,
+   "viewCount": 1392,
    "likeCount": 23,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -180,7 +192,7 @@
    "published": "2026-11-21T18:30:49Z",
    "duration": "PT2M44S",
    "privacy": "public",
-   "viewCount": 18,
+   "viewCount": 19,
    "likeCount": 1,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -204,7 +216,7 @@
    "published": "2026-11-20T17:34:19Z",
    "duration": "PT34S",
    "privacy": "public",
-   "viewCount": 1265,
+   "viewCount": 1266,
    "likeCount": 19,
    "dislikeCount": 0,
    "favoriteCount": 0,
@@ -353,7 +365,7 @@
   },
   {
    "video": "UkD2WkqXiAY",
-   "views": 1088,
+   "views": 1085,
    "estimatedMinutesWatched": 298,
    "averageViewDuration": 28,
    "averageViewPercentage": 86.64,
@@ -524,8 +536,8 @@
   },
   {
    "insightTrafficSourceType": "YT_SEARCH",
-   "views": 351,
-   "estimatedMinutesWatched": 72
+   "views": 344,
+   "estimatedMinutesWatched": 68
   },
   {
    "insightTrafficSourceType": "RELATED_VIDEO",
@@ -554,8 +566,8 @@
   },
   {
    "insightTrafficSourceType": "SHORTS",
-   "views": 10556,
-   "estimatedMinutesWatched": 2519
+   "views": 10563,
+   "estimatedMinutesWatched": 2523
   },
   {
    "insightTrafficSourceType": "HASHTAGS",

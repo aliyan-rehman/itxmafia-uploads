@@ -337,6 +337,29 @@
    "key": "9beec6d7068d968c588ea723020cb1cf9c3be002",
    "ran": "2026-11-27T19:01:57Z",
    "result": "UgyvAaSFX_WI_UDKHiN4AaABAg"
+  },
+  {
+   "op": "playlist_add",
+   "video_id": "lDkFzonuqcQ",
+   "playlist_id": "PLLQeg9yAzaS8",
+   "key": "7f8e3645d204344e24c25f668c5a5ccd77d7d8eb",
+   "ran": "2026-11-28T10:56:40Z",
+   "result": "UExMUWVnOXlBemFTOC4zMDg5MkQ5MEVDMEM1NTg2"
+  },
+  {
+   "op": "set_status",
+   "video_id": "lDkFzonuqcQ",
+   "key": "8e20daa2a4daf303d511875a44a19fb908cc3bf5",
+   "ran": "2026-11-28T10:56:41Z",
+   "result": "ok"
+  },
+  {
+   "op": "comment",
+   "video_id": "lDkFzonuqcQ",
+   "text": "Real fact 🧊 In a careful 2016 study, hot water did NOT cool faster than cold, yet people keep reporting hot wins. Scientists still argue!\n\nWhich world do you pick? 🅰️ Hot wins  🅱️ Cold wins 👇",
+   "key": "3e6ad40a64808e4740977fc50285f15f7bd38114",
+   "ran": "2026-11-28T10:56:43Z",
+   "result": "UgzDRI8WvgrdpFvKo1B4AaABAg"
   }
  ]
 }

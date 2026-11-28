@@ -1,18 +1,3 @@
 {
- "jobs": [
-  {
-   "op": "playlist_add",
-   "video_id": "lDkFzonuqcQ",
-   "playlist_id": "PLLQeg9yAzaS8"
-  },
-  {
-   "op": "set_status",
-   "video_id": "lDkFzonuqcQ"
-  },
-  {
-   "op": "comment",
-   "video_id": "lDkFzonuqcQ",
-   "text": "Real fact 🧊 In a careful 2016 study, hot water did NOT cool faster than cold, yet people keep reporting hot wins. Scientists still argue!\n\nWhich world do you pick? 🅰️ Hot wins  🅱️ Cold wins 👇"
-  }
- ]
+ "jobs": []
 }
