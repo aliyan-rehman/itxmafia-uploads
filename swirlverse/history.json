@@ -250,6 +250,18 @@
    "thumb": "pro (thumbkit): 'x7 DOG YEARS? NOPE!' + shocked Kiko + dog with 1-candle cake + 'AGE 1 = 15!' sticker",
    "experiment": "3rd IS IT TRUE? (MYTH verdict) + number in title (1 and 7) after 3 no-number titles; age-curve vs x7-line chart; 42 s; SHORT-B 22:30 PKT via Pipedream",
    "slot": "SHORT-B"
+  },
+  {
+   "date": "2026-11-28",
+   "kind": "short",
+   "video_id": "lDkFzonuqcQ",
+   "title": "Hot vs Cold Water: Which FREEZES First?",
+   "topic": "hot vs cold water which freezes first / Mpemba effect (1960s Tanzania ice cream, results depend on cup/freezer/thermometer, careful 2016 test: hot did not win, still debated; hot-always-wins world)",
+   "category": "everyday physics",
+   "style": "toon v2",
+   "thumb": "pro (thumbkit): 'HOT WATER WINS?!' + steaming hot mug vs icy cold mug + shocked Kiko + 'IT DEPENDS?!' sticker",
+   "experiment": "first VS format (split-screen versus + IT DEPENDS verdict) on proven everyday physics; 46 s; no number in title; SHORT-A 17:00 PKT",
+   "slot": "SHORT-A"
   }
  ],
  "ready": [],
@@ -263,7 +275,7 @@
    "upload_video (1 per video)"
   ],
   "month": "2026-11",
-  "calls": 5,
+  "calls": 6,
   "note": "Count every successful Zapier call here. Calls made by hand on 2026-11-23/24 during setup are not counted; if Zapier says the task limit is reached, skip and notify."
  }
 }
